@@ -1,6 +1,23 @@
 First download and install git and vrify it by "git -v"
 second goto github.com and create an account by sighup.create a repository also
-1.in vscode left sidde...>accounts..>sig in..>choose github and it will open browser and github login screen,enter username,password..>login..>authorize..>it will redirect to vs code
+1.in vscode left sidde...>accounts..>sig in..>choose github and it will open browser and github login 
+screen,enter username,password..>login..>authorize..>it will redirect to vs code
 Actual process
 open terminal...>new terminal..>goto specific folder
 1.git init  - it will initiate git into your folder
+2.git add . -it will add all the files into git
+3.git commit -m "any thing" - it will commit your git and added a message update
+First time you may end up git config error.like this
+git config --global user.email "you@example.com"
+git config --global user.name "your name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal:unable to auto-dtect email address (got'lenovo@SERVER.(none)')
+to slove it do following command
+git config --global user.email "your email id"
+git config --global user.name "username"
+After this try git add . and git commit m "update" again.
+4.git remote add origin "link"
+5.git push -u origin main
