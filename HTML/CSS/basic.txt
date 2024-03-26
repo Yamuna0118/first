@@ -1,0 +1,20 @@
+//we discuss in html till tables
+just understand how css works
+CSS:cascading style sheet.these are used to include stylish/desighing into two web pages.
+these are three ways to ahieve css
+1.inlin:inline css means in the line of html element,stye ill applied as attribute.
+<h1 style="color:red">something<h1>
+2.internal:internal styling means apply style as a element
+<style>
+selector{
+    property-name:value;
+}
+</style>
+/* selector can be directly tagname like h,div,etc..or class name like .class,or id name like #id1.
+3.external:
+we can write css in separate file with dot css extensio and
+<link rel="stylesheet" href="Link" /> 
+mdn docs
+the heart of css
+css basic proprties
+bkground color(hexcode,colorname,rgb,rgba,linear-grad)

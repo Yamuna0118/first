@@ -1,0 +1,16 @@
+body{
+    /* background-image:url('https://th.bing.com/th?id=ORMS.e198d48c87bc96a4ad77cb6d1d8d02cb&pid=Wdp&w=300&h=304&qlt=90&c=1&rs=1&dpr=1&p=0');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background:radial-gradient(aqua,black);
+    background-repeat: no-repeat;
+ color: white
+}
+#para2,#para1{
+    background-color: red;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    border:1px solid yellow;
+}
+
