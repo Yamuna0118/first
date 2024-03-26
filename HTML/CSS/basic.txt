@@ -18,3 +18,6 @@ mdn docs
 the heart of css
 css basic proprties
 bkground color(hexcode,colorname,rgb,rgba,linear-grad)
+netlify
+asignment;
+implement a basic page to tribute a person
