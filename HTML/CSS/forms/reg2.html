@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registation</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" >
+    <link rel="stylesheet" href="reg22.css" />
+</head>
+<body>
+    <div class="container">
+    <h1 style="text-align: center;">KRISHNA Colleage/School</h1>
+    <h2 style="text-align: center;">Student Registation Form</h2>
+      <div class="from-wrapper">
+       <form action="main.py">
+        <div class="form-item">
+            <label for="image">Student Image:</label>
+            <input type="file" name="student image">
+            <p>(less than 5mb)</p>
+        </div><br>
+        <div class="form-item">
+            <label for ="Student Name">Student Name:</label>
+            <input type="text" placeholder="Full Name" name="Student name">
+        </div><br>
+        <div class="form-item">
+            <label for="father name">Father's Name:</label>
+            <input type="text" placeholder="Father Full Name" name="father name">
+        </div><br>
+        <div class="form-item">
+            <label for="mother name">Mother's Full Name:</label>
+            <input type="text" placeholder="Mother's Name" name="mother's name">
+        </div><br>
+        <div class="form-item">
+            <label for="Gender">Gender</label>&nbsp;
+            <label for="Male">Male</label>
+            <input type="radio" name="Male">
+            <label for="female">Female</label>
+            <input type="radio" name="Female">
+            <label for ="Other">Other</label>
+            <input type="radio" name="Other">
+        </div><br>
+        <div class="form-item">
+            <label for ="Date of Birth">Date of Birth</label>
+            <input type="date" name="Date of Birth" >
+
+        </div><br>
+        <div class="form-item">
+            <label for="email">E-mail:</label>
+            <input type="email"placeholder="png@gmail.com"name="E-mail">
+        </div><br>
+        <div class="form-item">
+            <label for ="level">Level:</label>
+            <select name="level" id="level">
+                <option value="highschool">High School</option>
+                <option value="highschool">Bachelors</option>
+                <option value="highschool">Masters</option>
+                <option value="highschool">Phd</option>
+            </select>
+        </div><br>
+        <div class="form-item">
+                    <label for="department">Deparment:</label>
+                    <select name="department" id="department">
+                        <option value="department">Electrical Engineering</option>
+                        <option value="department">Computer Engineering</option>
+                        <option value="department">Software Engineering</option>
+                        <option value="Department">Civil</option>
+                    </select>
+                </div><br>
+        <div class="form-item">
+            <label for ="tell">Tel/mobile:</label>
+            <input type="tel" placeholder="9014512467" name="tell" >
+
+        </div><br>
+        <hr>
+        <h3 style="text-align:center;">permanent Address</h3>
+        <div class="form-item">
+            <label for ="pstate">State:</label>
+            <input type="text" placeholder="State" name="state">
+        </div><br>
+        <div class="form-item">
+            <label for ="pcity">City:</label>
+            <input type="text" placeholder="City" name="City" >
+
+        </div><br>
+        <div class="form-item">
+            <label for="pzip">Zip Code:</label>
+            <input type="number" placeholder="Zip Code" name="Zip Code">
+        </div><br>
+        
+        <hr>
+        <h3 style="text-align: center;">temporary address</h3>
+        <div class="same-perm">
+            <label for="sameaspermanent">Same as Permanent:</label>
+            <input type="checkbox" name="sameaspermanent" id="sameaspermanent">
+        </div><br>
+        <div class="form-item">
+            <label for ="tstate">State:</label>
+            <input type="text" placeholder="State" name="State" >
+        </div><br>
+
+        <div class="form-item">
+            <label for ="tcity">City:</label>
+            <input type="text" placeholder="City" name="City" >
+
+        </div><br>
+        <div class="form-item">
+            <label for="tzip">Zip Code:</label>
+            <input type="number" placeholder="Zip Code" name="Zip Code">
+        </div><br>
+        <div class="form-item">
+            <label for="alternate phone">Alternate phone:</label>
+            <input type="number" placeholder="alternate phone" name="alernate phone">
+        </div><br>
+        <button>register</button>
+    </form>
+    </div>
+    </div>
+    
+</body>
+</html>
