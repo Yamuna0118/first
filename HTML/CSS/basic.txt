@@ -19,5 +19,12 @@ the heart of css
 css basic proprties
 bkground color(hexcode,colorname,rgb,rgba,linear-grad)
 netlify
+
+
 asignment;
 implement a basic page to tribute a person
+create a imple login form with the email and password.
+netflix login page.
+make a student registaration form.
+create a multipage tribute form where home represents tribute and about u and contcat representation contact form.
+all sites should be live.
