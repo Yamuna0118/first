@@ -28,3 +28,4 @@ netflix login page.
 make a student registaration form.
 create a multipage tribute form where home represents tribute and about u and contcat representation contact form.
 all sites should be live.
+

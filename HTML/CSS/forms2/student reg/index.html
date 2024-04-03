@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="https://img.freepik.com/free-vector/basic-rgb_53876-36894.jpg?t=st=1711952685~exp=1711956285~hmac=4b3c4b5ee57cf207d756f55d9f52e24e002320f57ed04e72d06fe0e0cd49899b&w=740" type="image/x-icon">
+    <link rel="stylesheet" href="style3.css" >
+</head>
+<body>
+    <h1 class="title">student reg form</h1>
+    <form action="main.py" >
+        <fieldset>
+    <div>
+    <label for="first name">first name:<span class="re">*</span></label>
+
+    <input type="text" placeholder="enter your name" name="first name" id="fname" required>
+    <label for ="last name">last name:</label>
+    <input type="text" name="last name" id="In" pattern="[A-Za-Z0-9]+@[A-Za-z]+.[A-Za-z]{3}" title="Error" required>
+    </div><br>
+
+    <div>
+        <fieldset>
+        <label for="email">email:</label>
+        <input type="text" placeholder="enter email" name="email" id="em">
+        </fieldset>
+    </div><br>
+    <div>
+        <label for="password">password</label>
+        <input type="password" name="password" placeholder="enter password" id="pws" minlength="8" maxlength="10">
+    </div><br>
+    <div>
+        <label for="bod">date of birth:</label>
+        <input type="email" name="email" id="em" placeholder="enter email">
+    </div><br>
+    <div>
+        <label>choose the gender</label>
+        <input type="radio" name="gender" id="m"><label for="m">male</label>
+        <input type="radio" name="gender" id="f"><label for="f">female</label>
+    </div><br>
+    <div>
+        <label for="number">number</label>
+        <input type="number" name="number" id="mod" placeholder="enter yout mobile no" min="22" max="55">
+    </div><br>
+    <div>
+    <label>languges known:</label>
+    <input type="checkbox" name="languages" id="en" value="english">
+    <label for="en">english</label>
+    <input type="checkbox" name="languages" id="tl" value="telugu">
+    <label for="tn">telugu</label>
+    <input type="checkbox" name="languages" id="hi" value="hindi">
+    <label for="hi">hindi</label>
+    </div><br>
+    <div>
+      <label>choose the course:</label>  <select name="" id="">
+        <option value="">please choose</option>
+        <option value="btech">btech</option>
+        <option value="mca">mca</option>
+        <option value="degree">degree</option>
+        <option value="b.ed">b.ed</option>
+      </select>
+    </div><br>
+    <div>
+      <label>choose the subjects:</label>  <select name="" id="" multiple size="5">
+        <option value="">please choose</option>
+        <option value="maths">maths</option>
+        <optgroup label="common">
+            <option value="physics">physics</option>
+            <option value="chemistry">chemistry</option>
+        </optgroup>
+        <optgroup label="vlsi"></optgroup>
+        <option value="physics">physics</option>
+        <option value="chemistry">chemistry</option>
+        <optgroup label="EEE">
+            <option value="daa">daa</option>
+            <option value="java">java</option>
+        </optgroup>
+        <option value="fm">fm</option>
+        <option value="EEE">EEE</option>
+        <option value="CSE">CSE</option>
+        <option value="os">os</option>
+        <option value="daa">daa</option>
+        <option value="java">java</option>
+        <option value="python">python</option>
+        <option value="vlsi">vlsi</option>
+        <option value="dbms">dbms</option>
+      </select>
+    </div><br>
+    <div>
+        <label for="enter feedback">enter feedbak:</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div><br>
+    <div>
+        <datalist id="sports">
+            <p>plz choose sports</p>
+            <input type="text" lists="sports">
+            <option value="cricket">cricket</option>
+                <option value=" kho-kho"></option>
+            </option>
+        </datalist>
+    </div>
+    <div class="submit">
+        <button type="submit" style="background-color:red;">submit</button>
+        <button type="reset" style="background-color: blue;">reset</button>
+    </div><br>
+</form>
+</fieldset>
+</body>
+</html>
