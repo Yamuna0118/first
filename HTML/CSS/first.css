@@ -1,7 +1,25 @@
-.div
+h1,h2,h3,h4,h5
 {
-    background-color: yellow;
+    
+    font-size: 10px;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
-body{
-    background-color: green;
+.oddhead
+{
+    color: green;
+}
+#headId
+{
+    color:aqua;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background:radial-gradient(aqua,black);
+    background-repeat: no-repeat;
+ color: white
+ 
 }

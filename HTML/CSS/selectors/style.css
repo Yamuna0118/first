@@ -1,0 +1,108 @@
+/* root selector */
+*
+{
+background-color: aliceblue;
+}
+body {
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: black;
+    height: 100px;
+}
+div {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid black;
+}
+.first {
+    background-color: red;
+}
+#box2 {
+    background-color: green;
+}
+div>p /* child selector */
+{
+    color: red;
+}
+/* div>p means p wich is direct child div */
+/* div p means p which is descendent of div */
+input[type="text"] {  /* property attribute selecor */
+    background-color: green;
+
+}
+/* chain selector */
+.first p {
+ /* p inside first id,h1,h2 */   
+}
+/* pseudo classes and pseudo selectors */
+/* pseudo selectors -all pseudo selectors will contain :after selector*/
+/* psedo */
+.first:hover {
+    background-color: yellow;
+}
+input:required {
+    background-color: red;
+}
+input:optional {
+    background-color: green;
+}
+input:read-only {
+    height: 100px;
+}
+input:read-write {
+    width: 100px;
+}
+input:disabled {
+    background-color: aliceblue;
+}
+input:enabled {
+    background-color: red;
+}
+a:visited {
+color:black;
+}
+a:active {
+color: yellow;
+}
+input:hover {
+    background-color: black;
+}
+input:focus {
+    background-color: white;
+}
+main {
+    border: 2px solid aqua;
+}
+div:empty {
+    background-color: aqua;
+}
+div:nth-child(even) /* any div inside the body who is 1st child of their parent */
+
+{
+    background-color: red;
+}
+div:nth-last-child(2) {
+    background-color: red;
+}
+div:nth-last-child(1) {
+    background-color: blue;
+}
+div:nth-last-of-type(2) {
+background-color: yellow;
+}
+/* pseudo classes -they come with :: */
+#para::first-letter {
+    color: red;
+    font-size: 50px;
+}
+#para::hover {
+    text-decoration: underline;
+}
+#para::after {
+    content: " prasad";
+}
+#para::before {
+    content:""
+}
