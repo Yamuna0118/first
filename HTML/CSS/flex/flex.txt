@@ -1,0 +1,21 @@
+display property:mdn docs
+
+display is used to display certain elements in a container
+display:block-->will make an element or element in a container block.
+display:inline-->will make an element or elementsin a container inline.
+*inline elements cannot have height or width to make elements inline and use
+
+
+flex froggy...web site for flex
+css battle....web site
+frontend mentor....web site
+gridy....web site
+css grid garden...web site
+
+
+
+
+display:flex;
+flex deals with two axes.main and cross axes
+main axis..>where all elements are arranged
+cross axis..>where each elements is arrange flex is mainly used when you want 
